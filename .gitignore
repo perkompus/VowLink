@@ -1,1 +1,36 @@
-node_modules
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# MacOS Specific (Crucial since you're building for iPhone)
+.DS_Store
+
+# Production / Build
+dist/
+build/
+
+# Environment Variables (CRITICAL: Never share these)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Supabase specific
+.supabase/
