@@ -31,3 +31,7 @@ Unlike standard LLM chats, VowLink uses a **Dual-Framework Approach**:
 2. **Setup Env:** Create `.env` with your Supabase and Gemini keys.
 3. **Database:** Run the SQL provided in the `docs` to set up your `sessions` and `messages` tables.
 4. **Run:** `npm run dev`
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
